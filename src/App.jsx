@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer' 
 import Home from './components/Page1'
 import Detailpage from './components/Page2'
+import Bag from './components/Page3'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/detail' element={<Detailpage/>} />
+        <Route path='/achat' element={<Bag/>}/>
       </Routes>
       <Footer/>
     </div>
