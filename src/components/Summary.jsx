@@ -1,6 +1,6 @@
 import React from 'react'
 
-const OrderSummary = () =>{
+const Summary = () =>{
     const subtotal = 90.00;
     const shipping = 20.00;
     const tax = 6.00;
@@ -40,4 +40,4 @@ const OrderSummary = () =>{
     );
 };
 
-export default Summary
+export default Summary;

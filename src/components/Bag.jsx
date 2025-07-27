@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 const Bag =() =>{
     const [items,setItems] = useState([
         {
+            
             id: 1,
             brand: 'Nike',
             name: 'Nike Air Force Premium',
