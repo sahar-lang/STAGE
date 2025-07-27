@@ -7,14 +7,16 @@ const Bag =() =>{
             brand: 'Nike',
             name: 'Nike Air Force Premium',
             price: 98.23,
-            quantity:1
+            quantity:1,
+            image: 'src\assets\Image\s4.png'
         },
         {
             id: 1,
             brand: 'Adidas',
             name: 'DAILY 3.0 SHOES',
             price: 98.23,
-            quantity:1
+            quantity:1,
+            image:'src\assets\Image\s5.png'
         }
     ]);
     const updateQuantity = (id,newQuantity) =>{
@@ -41,7 +43,7 @@ const Bag =() =>{
                                         <button className='px-3 py-1 hover:bg-gray-100' onClick={() => ipdateQuantity(item.id,item.quantity -1)}>
                                          -   
                                         </button>
-                                        <span className='px-3 py-1'>{item.quantity}</span>
+                                        <span className='px-3 py-1 front-medium'>{item.quantity}</span>
                                         <button className='px-3 py-1 hover:bg-gray-100 ' onClick={() => updateQuantity(item.id,item.quantity + 1 )}>
                                             +
                                         </button>
